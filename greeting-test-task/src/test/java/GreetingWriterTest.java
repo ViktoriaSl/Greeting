@@ -23,7 +23,7 @@ public class GreetingWriterTest {
     private static final String RUSSIAN_MORNING_GREETING = "Доброе утро, Мир!";
     private static final String RUSSIAN_DAY_GREETING = "Добрый день, Мир!";
     private static final String RUSSIAN_EVENING_GREETING = "Добрый вечер, Мир!";
-    private static final String RUSSIAN_NIGHT_GREETING = "Доброй ночи, Мир!";
+    private static final String RUSSIAN_NIGHT_GREETING = "Добрoй ночи, Мир!";
     GreetingWriter greetingWriter = new GreetingWriter();
 
     @Test

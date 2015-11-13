@@ -1,14 +1,17 @@
 package greeting;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Locale;
-import java.util.ResourceBundle;
+import java.util.Properties;
 
 /**
  * Created by vika on 13.11.15.
  */
 public class Dictionary {
-    private static final String ENGLISH_GREETING_PROPERTIES = "english-dictionary";
-    private static final String RUSSIAN_GREETING_PROPERTIES = "russian-dictionary";
+    private static final String ENGLISH_GREETING_PROPERTIES = "src/main/resources/english-dictionary.properties";
+    private static final String RUSSIAN_GREETING_PROPERTIES = "src/main/resources/russian-dictionary.properties";
     private static final Locale ENGLISH_LOCALE = Locale.ENGLISH;
     private static final Locale US_LOCALE = Locale.US;
     private static final Locale RUSSIAN_LOCALE = new Locale("ru");
@@ -24,9 +27,14 @@ public class Dictionary {
     }
 
     private String getGreeting(String propertiesLanguage, String greetingKey) {
-        ResourceBundle dictionaryKeys =
-                ResourceBundle.getBundle(propertiesLanguage);
-        return dictionaryKeys.getString(greetingKey);
+        Properties props = new Properties();
+        try {
+
+            props.load(new InputStreamReader(new FileInputStream(propertiesLanguage), "UTF-8"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return props.getProperty(greetingKey);
     }
 
 

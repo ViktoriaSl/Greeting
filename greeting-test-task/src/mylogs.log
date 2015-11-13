@@ -196,3 +196,85 @@
 2015-11-13 23:34:34,415 [main] INFO   greeting.GreetingWriter - Good day, World!
 2015-11-13 23:34:34,415 [main] INFO   greeting.GreetingWriter - Good evening, World!
 2015-11-13 23:34:34,420 [main] INFO   greeting.GreetingWriter - ÐÐ¾Ð±ÑoÐ¹ Ð½Ð¾ÑÐ¸, ÐÐ¸Ñ!
+2015-11-13 23:57:22,983 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:57:23,043 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:57:23,077 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:57:23,104 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:57:23,128 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:57:23,155 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:57:23,168 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:57:23,193 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:57:23,212 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:57:23,235 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:57:23,253 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:57:23,267 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:57:23,284 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:57:23,299 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:57:23,314 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:57:23,329 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:17,182 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:17,212 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:17,239 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:17,272 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:17,287 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:17,311 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:17,320 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:17,334 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:17,342 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:17,361 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:17,372 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:17,385 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:17,405 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:17,420 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:17,431 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:17,444 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:59,553 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:59,590 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:59,615 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:59,643 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:59,655 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:59,673 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:59,683 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:59,699 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:59,709 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:59,721 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:59,731 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:59,748 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:59,767 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:59,789 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:59,803 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:58:59,833 [main] INFO   greeting.GreetingWriter - null
+2015-11-13 23:59:42,811 [main] INFO   greeting.GreetingWriter - Good night, World!
+2015-11-13 23:59:42,819 [main] INFO   greeting.GreetingWriter - Доброе утро, Мир!
+2015-11-13 23:59:42,820 [main] INFO   greeting.GreetingWriter - Good night, World!
+2015-11-13 23:59:42,821 [main] INFO   greeting.GreetingWriter - Доброе утро, Мир!
+2015-11-13 23:59:42,822 [main] INFO   greeting.GreetingWriter - Good morning, World!
+2015-11-13 23:59:42,822 [main] INFO   greeting.GreetingWriter - Добрый вечер, Мир!
+2015-11-13 23:59:42,823 [main] INFO   greeting.GreetingWriter - Добрый день, Мир!
+2015-11-13 23:59:42,824 [main] INFO   greeting.GreetingWriter - Good morning, World!
+2015-11-13 23:59:42,824 [main] INFO   greeting.GreetingWriter - Добрый день, Мир!
+2015-11-13 23:59:42,825 [main] INFO   greeting.GreetingWriter - Добрый вечер, Мир!
+2015-11-13 23:59:42,826 [main] INFO   greeting.GreetingWriter - Good evening, World!
+2015-11-13 23:59:42,827 [main] INFO   greeting.GreetingWriter - Good day, World!
+2015-11-13 23:59:42,827 [main] INFO   greeting.GreetingWriter - Добрoй ночи, Мир!
+2015-11-13 23:59:42,850 [main] INFO   greeting.GreetingWriter - Good day, World!
+2015-11-13 23:59:42,852 [main] INFO   greeting.GreetingWriter - Good day, World!
+2015-11-13 23:59:42,854 [main] INFO   greeting.GreetingWriter - Good evening, World!
+2015-11-13 23:59:42,858 [main] INFO   greeting.GreetingWriter - Добрoй ночи, Мир!
+2015-11-14 00:01:38,821 [main] INFO   greeting.GreetingWriter - Good night, World!
+2015-11-14 00:01:38,832 [main] INFO   greeting.GreetingWriter - Доброе утро, Мир!
+2015-11-14 00:01:38,834 [main] INFO   greeting.GreetingWriter - Good night, World!
+2015-11-14 00:01:38,835 [main] INFO   greeting.GreetingWriter - Доброе утро, Мир!
+2015-11-14 00:01:38,838 [main] INFO   greeting.GreetingWriter - Good morning, World!
+2015-11-14 00:01:38,840 [main] INFO   greeting.GreetingWriter - Добрый вечер, Мир!
+2015-11-14 00:01:38,840 [main] INFO   greeting.GreetingWriter - Добрый день, Мир!
+2015-11-14 00:01:38,842 [main] INFO   greeting.GreetingWriter - Good morning, World!
+2015-11-14 00:01:38,843 [main] INFO   greeting.GreetingWriter - Добрый день, Мир!
+2015-11-14 00:01:38,845 [main] INFO   greeting.GreetingWriter - Добрый вечер, Мир!
+2015-11-14 00:01:38,847 [main] INFO   greeting.GreetingWriter - Good evening, World!
+2015-11-14 00:01:38,848 [main] INFO   greeting.GreetingWriter - Good day, World!
+2015-11-14 00:01:38,850 [main] INFO   greeting.GreetingWriter - Добрoй ночи, Мир!
+2015-11-14 00:01:38,853 [main] INFO   greeting.GreetingWriter - Good day, World!
+2015-11-14 00:01:38,858 [main] INFO   greeting.GreetingWriter - Good day, World!
+2015-11-14 00:01:38,859 [main] INFO   greeting.GreetingWriter - Good evening, World!
+2015-11-14 00:01:38,863 [main] INFO   greeting.GreetingWriter - Добрoй ночи, Мир!
