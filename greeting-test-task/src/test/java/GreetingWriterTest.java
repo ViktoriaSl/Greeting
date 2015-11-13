@@ -1,13 +1,10 @@
 import greeting.GreetingWriter;
-import greeting.message.impl.EnglishGreeting;
-import greeting.message.impl.RussianGreeting;
 import org.junit.Test;
 
 import java.time.LocalTime;
 import java.util.Locale;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 /**
  * Created by vika on 13.11.15.
@@ -30,19 +27,6 @@ public class GreetingWriterTest {
     GreetingWriter greetingWriter = new GreetingWriter();
 
     @Test
-    public void testDetermineCountryWithUSLocaleShouldReturnEnglishGreeting(){
-            assertTrue(greetingWriter.determineCountry(US_LOCALE) instanceof EnglishGreeting);
-      }
-    @Test
-    public void testDetermineCountryWithEnglishLocaleShouldReturnEnglishGreeting(){
-        assertTrue(greetingWriter.determineCountry(ENGLISH_LOCALE) instanceof EnglishGreeting);
-    }
-    @Test
-    public void testDetermineCountryWithRussianLocaleShouldReturnRussianGreeting(){
-        assertTrue(greetingWriter.determineCountry(RUSSIAN_LOCALE) instanceof RussianGreeting);
-    }
-
-    @Test
     public void testDetermineGreetingShouldReturnDayGreetingInEnglish(){
         LocalTime dayTime =LocalTime.of(12,0);
         assertEquals(greetingWriter.determineGreeting(dayTime, ENGLISH_LOCALE), ENGLISH_DAY_GREETING);
@@ -52,6 +36,8 @@ public class GreetingWriterTest {
     public void testDetermineGreetingLimitValueShouldReturnDayGreetingInEnglish(){
         LocalTime limitDayTime =LocalTime.of(9,0);
         assertEquals(greetingWriter.determineGreeting(limitDayTime, ENGLISH_LOCALE), ENGLISH_DAY_GREETING);
+        assertEquals(greetingWriter.determineGreeting(limitDayTime, US_LOCALE), ENGLISH_DAY_GREETING);
+
     }
 
 
