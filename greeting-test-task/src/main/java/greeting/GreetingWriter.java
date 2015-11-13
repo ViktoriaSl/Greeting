@@ -13,13 +13,13 @@ import java.util.Locale;
  */
 public class GreetingWriter {
     Logger logger = org.slf4j.LoggerFactory.getLogger(GreetingWriter.class);
-    private final Locale ENGLISH_LOCALE = Locale.ENGLISH;
-    private final Locale US_LOCALE = Locale.US;
-    private final Locale RUSSIAN_LOCALE = new Locale("ru");
-    private final LocalTime START_MORNING_TIME = LocalTime.of(6, 0);
-    private final LocalTime START_DAY_TIME = LocalTime.of(9, 0);
-    private final LocalTime START_EVENING_TIME = LocalTime.of(19, 0);
-    private final LocalTime START_NIGHT_TIME = LocalTime.of(23, 0);
+    private static final Locale ENGLISH_LOCALE = Locale.ENGLISH;
+    private static final Locale US_LOCALE = Locale.US;
+    private static final Locale RUSSIAN_LOCALE = new Locale("ru");
+    private static final LocalTime START_MORNING_TIME = LocalTime.of(6, 0);
+    private static final LocalTime START_DAY_TIME = LocalTime.of(9, 0);
+    private static final LocalTime START_EVENING_TIME = LocalTime.of(19, 0);
+    private static final LocalTime START_NIGHT_TIME = LocalTime.of(23, 0);
 
     public Greeting determineCountry(Locale countryLocale) {
         Greeting userGreeting = null;

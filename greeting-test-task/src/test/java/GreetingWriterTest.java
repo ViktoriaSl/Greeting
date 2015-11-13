@@ -14,19 +14,19 @@ import static org.junit.Assert.assertTrue;
  */
 public class GreetingWriterTest {
 
-    private final Locale ENGLISH_LOCALE = Locale.ENGLISH;
-    private final Locale US_LOCALE = Locale.US;
-    private final Locale RUSSIAN_LOCALE = new Locale("ru");
+    private static final Locale ENGLISH_LOCALE = Locale.ENGLISH;
+    private static final Locale US_LOCALE = Locale.US;
+    private static final Locale RUSSIAN_LOCALE = new Locale("ru");
 
-    private final String ENGLISH_MORNING_GREETING = "Good morning, World!";
-    private final String ENGLISH_DAY_GREETING = "Good day, World!";
-    private final String ENGLISH_EVENING_GREETING = "Good evening, World!";
-    private final String ENGLISH_NIGHT_GREETING = "Good night, World!";
+    private static final String ENGLISH_MORNING_GREETING = "Good morning, World!";
+    private static final String ENGLISH_DAY_GREETING = "Good day, World!";
+    private static final String ENGLISH_EVENING_GREETING = "Good evening, World!";
+    private static final String ENGLISH_NIGHT_GREETING = "Good night, World!";
 
-    private final String RUSSIAN_MORNING_GREETING = "Доброе утро, Мир!";
-    private final String RUSSIAN_DAY_GREETING = "Добрый день, Мир!";
-    private final String RUSSIAN_EVENING_GREETING = "Добрый вечер, Мир!";
-    private final String RUSSIAN_NIGHT_GREETING = "Доброй ночи, Мир!";
+    private static final String RUSSIAN_MORNING_GREETING = "Доброе утро, Мир!";
+    private static final String RUSSIAN_DAY_GREETING = "Добрый день, Мир!";
+    private static final String RUSSIAN_EVENING_GREETING = "Добрый вечер, Мир!";
+    private static final String RUSSIAN_NIGHT_GREETING = "Доброй ночи, Мир!";
     GreetingWriter greetingWriter = new GreetingWriter();
 
     @Test
