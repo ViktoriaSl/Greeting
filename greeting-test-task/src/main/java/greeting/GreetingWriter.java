@@ -21,7 +21,7 @@ public class GreetingWriter {
     private Logger logger = org.slf4j.LoggerFactory.getLogger(GreetingWriter.class);
 
 
-    public String determineGreeting(LocalTime currentTime, Locale countryLocale) {
+    String determineGreeting(LocalTime currentTime, Locale countryLocale) {
         String greetingString = null;
         LocalTime limitUpperValue = LocalTime.of(23, 59);
         LocalTime limitDownValue = LocalTime.of(0, 0);

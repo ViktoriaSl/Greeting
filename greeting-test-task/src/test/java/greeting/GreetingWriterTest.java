@@ -1,4 +1,5 @@
-import greeting.GreetingWriter;
+package greeting;
+
 import org.junit.Test;
 
 import java.time.LocalTime;
@@ -24,7 +25,13 @@ public class GreetingWriterTest {
     private static final String RUSSIAN_DAY_GREETING = "Добрый день, Мир!";
     private static final String RUSSIAN_EVENING_GREETING = "Добрый вечер, Мир!";
     private static final String RUSSIAN_NIGHT_GREETING = "Добрoй ночи, Мир!";
+    private static final String NIGHT_GREETING_KEY = "night.greeting";
+    private static final String DAY_GREETING_KEY = "day.greeting";
+    private static final String EVENING_GREETING_KEY = "evening.greeting";
+    private static final String MORNING_GREETING_KEY = "morning.greeting";
+
     GreetingWriter greetingWriter = new GreetingWriter();
+    Dictionary dictionary = new Dictionary();
 
     @Test
     public void testDetermineGreetingShouldReturnDayGreetingInEnglish(){
@@ -123,5 +130,67 @@ public class GreetingWriterTest {
         LocalTime morningTime =LocalTime.of(7,0);
         assertEquals(RUSSIAN_MORNING_GREETING,greetingWriter.determineGreeting(morningTime, RUSSIAN_LOCALE));
     }
+
+
+    @Test
+    public void testGetTranslationShouldReturnMorningGreetingInEnglish(){
+       assertEquals(ENGLISH_MORNING_GREETING,dictionary.getTranslationForKey(MORNING_GREETING_KEY,ENGLISH_LOCALE));
+    }
+    @Test
+    public void testGetTranslationShouldReturnDAYGreetingInEnglish(){
+        assertEquals(ENGLISH_DAY_GREETING,dictionary.getTranslationForKey(DAY_GREETING_KEY,ENGLISH_LOCALE));
+    }
+
+    @Test
+    public void testGetTranslationShouldReturnEveningGreetingInEnglish(){
+        assertEquals(ENGLISH_EVENING_GREETING,dictionary.getTranslationForKey(EVENING_GREETING_KEY,ENGLISH_LOCALE));
+    }
+
+    @Test
+    public void testGetTranslationShouldReturnNightGreetingInEnglish(){
+        assertEquals(ENGLISH_NIGHT_GREETING,dictionary.getTranslationForKey(NIGHT_GREETING_KEY,ENGLISH_LOCALE));
+    }
+
+    @Test
+    public void testGetTranslationShouldReturnNightGreetingInUS(){
+        assertEquals(ENGLISH_NIGHT_GREETING,dictionary.getTranslationForKey(NIGHT_GREETING_KEY,US_LOCALE));
+    }
+
+    @Test
+    public void testGetTranslationShouldReturnMorningGreetingInUS(){
+        assertEquals(ENGLISH_MORNING_GREETING,dictionary.getTranslationForKey(MORNING_GREETING_KEY,US_LOCALE));
+    }
+
+    @Test
+    public void testGetTranslationShouldReturnDayGreetingInUS(){
+        assertEquals(ENGLISH_DAY_GREETING,dictionary.getTranslationForKey(DAY_GREETING_KEY,US_LOCALE));
+    }
+
+    @Test
+    public void testGetTranslationShouldReturnEveningGreetingInUS(){
+        assertEquals(ENGLISH_EVENING_GREETING,dictionary.getTranslationForKey(EVENING_GREETING_KEY,US_LOCALE));
+    }
+
+
+    @Test
+    public void testGetTranslationShouldReturnNightGreetingInRussian(){
+        assertEquals(RUSSIAN_NIGHT_GREETING,dictionary.getTranslationForKey(NIGHT_GREETING_KEY,RUSSIAN_LOCALE));
+    }
+
+    @Test
+    public void testGetTranslationShouldReturnMorningGreetingInRussian(){
+        assertEquals(RUSSIAN_MORNING_GREETING,dictionary.getTranslationForKey(MORNING_GREETING_KEY,RUSSIAN_LOCALE));
+    }
+
+    @Test
+    public void testGetTranslationShouldReturnDayGreetingInRussian(){
+        assertEquals(RUSSIAN_DAY_GREETING,dictionary.getTranslationForKey(DAY_GREETING_KEY,RUSSIAN_LOCALE));
+    }
+
+    @Test
+    public void testGetTranslationShouldReturnEveningGreetingInRussian(){
+        assertEquals(RUSSIAN_EVENING_GREETING,dictionary.getTranslationForKey(EVENING_GREETING_KEY,RUSSIAN_LOCALE));
+    }
+
 
 }
