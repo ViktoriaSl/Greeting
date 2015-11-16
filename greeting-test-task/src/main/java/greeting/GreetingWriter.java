@@ -9,7 +9,7 @@ import java.util.Locale;
  * Created by vika on 13.11.15.
  */
 public class GreetingWriter {
-    Logger logger = org.slf4j.LoggerFactory.getLogger(GreetingWriter.class);
+
     private static final LocalTime START_MORNING_TIME = LocalTime.of(6, 0);
     private static final LocalTime START_DAY_TIME = LocalTime.of(9, 0);
     private static final LocalTime START_EVENING_TIME = LocalTime.of(19, 0);
@@ -18,7 +18,7 @@ public class GreetingWriter {
     private static final String DAY_GREETING_KEY = "day.greeting";
     private static final String EVENING_GREETING_KEY = "evening.greeting";
     private static final String NIGHT_GREETING_KEY = "night.greeting";
-
+    private Logger logger = org.slf4j.LoggerFactory.getLogger(GreetingWriter.class);
 
 
     public String determineGreeting(LocalTime currentTime, Locale countryLocale) {
