@@ -35,7 +35,7 @@ public class Dictionary {
 
             props.load(new InputStreamReader(new FileInputStream(propertiesLanguage), "UTF-8"));
         } catch (IOException e) {
-            logger.info("File with path "+propertiesLanguage +" not exists");
+            logger.info("File with path " + propertiesLanguage + " not exists");
         }
         return props.getProperty(greetingKey);
     }
